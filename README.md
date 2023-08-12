@@ -22,12 +22,22 @@
  
  Prefab for Vosk included.
  
+ Scene with the Prefab in situ also included.
+ 
  The aim was to squeeze a bit more efficiency out of the default Vosk without writing an entire plug-in layer on top for error correction, and without going and buying Recognissimo (good plug-in if you want to spend a bit of money).
 
 ## No Model In This Repository!
  This repo doesn't contain a Vosk model (bloat, also too many options, you should go pick). So again, you'll want to grab a Vosk Model from AlphaCephei at the link above.
  
- Place downloaded Vosk Models in the StreamingAssets folder of your Unity Project. Target the model with the ModelPath parameter in the VoskSpeechToText component / script.
+## Where To Put The Model?
  
+ Place downloaded Vosk Models in the StreamingAssets folder of your Unity Project. Target the model with the ModelPath parameter in the VoskSpeechToText component / script.
+
+## How To Change The Dud Word Filter?
  Change dud words to filter out in the VoskResultText component / script with the dudEntryStrings parameter.
+ 
+## Notes:
+ The .UnityPackage is provided as a convenience. The source and files in the Assets folders are the same.
+ 
+ Acknowledgements to Ionic.zip, works better than System.IO.Compression in this case, if you already have Ionic.zip in your project, don't copy the ThirdParty folder in.
  
