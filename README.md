@@ -18,7 +18,7 @@
  
  The array that stores the common "dud" words or phrases can be altered to suit whatever Speech Recognition Model you're using. We assume the "dud" words would be different in other languages.
  
- The code has been better commented, or Tooltipped in the case of public variables in the Unity Inspector.
+ The code has been better commented, or tooltipped in the case of public variables in the Unity Inspector.
  
  The aim was to squeeze a bit more efficiency out of the default Vosk without writing an entire plug-in layer on top for error correction, and without going and buying Recognissimo (good plug-in if you want to spend a bit of money).
 
