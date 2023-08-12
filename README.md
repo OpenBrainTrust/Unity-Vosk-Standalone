@@ -39,5 +39,5 @@
 ## Notes:
  The .UnityPackage is provided as a convenience. The source and files in the Assets folders are the same.
  
- Acknowledgements to Ionic.zip, works better than System.IO.Compression in this case, if you already have Ionic.zip in your project, don't copy the ThirdParty folder in.
+ Acknowledgements to Ionic.zip, works better than System.IO.Compression in this case. If you already have Ionic.zip in your project, don't copy the ThirdParty folder in.
  
