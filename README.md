@@ -6,6 +6,12 @@
  While Vosk is fairly performant "out of the box", it has issues with room noise and microphone volume; this often results in "dud" words coming in. 
  
  Typically, room noise detected from the microphone during listening will either send a single word in periodically, or put the same word at the beginning and end of the text of sentences spoken. 
+ 
+## Dud Example
+ You say "I'm going to the store."
+ Vosk prints "the I'm going to the store the."
+ 
+ As you can imagine, this is frustrating.
 
 ## What We Did About It 
  This modified Vosk for Unity implementation provides some Speech Recognition results filtering for common audio misinterpretations above the default to eliminate those as best as possible.
